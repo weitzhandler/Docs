@@ -27,9 +27,9 @@ Next, you need to install the .NET Version Manager (DNVM). You can do so by runn
 
 	curl -sSL https://raw.githubusercontent.com/aspnet/Home/master/dnvminstall.sh | sh && source ~/.dnx/dnvm/dnvm.sh
 
-Alternatively, you can manually install it by downloading the ?? file from the `aspnet/Home <https://github.com/aspnet/Home>`_ repository and place it in the ?? directory on your file system. Then, add the following lines to your shell startup script::
+Alternatively, you can manually install it by downloading the ``dnvm.sh`` file from the `aspnet/Home <https://github.com/aspnet/Home>`_ repository and place it in the ``/Users/[your user name here]/.dnx/dnvm`` directory on your file system. Then, add the following lines to your shell startup script::
 
-	<shell lines>
+	?? shell lines ??
 	
 Next, run ``dnvm`` to verify that your terminal understands this command. If it does not, run the command ``source dnvm.sh`` to link it, then try running ``dnvm`` again. You should see something like this:
 
